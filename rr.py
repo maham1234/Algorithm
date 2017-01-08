@@ -1,3 +1,4 @@
+#rr
 
 total_w=[]
 r_burst=[]
@@ -6,9 +7,9 @@ total=0
 m=[]
 
 
-num=int(raw_input('Total processes: '))
+num=int(raw_input('Total processes: ')) #input
 
-quantum=int (raw_input('Enter time quantum: '))
+quantum=int (raw_input('Enter time quantum: ')) #input
 
 
 
@@ -21,7 +22,7 @@ for i in xrange(num):
 	total+=m[i][2] #total burst time
 	m[i].append(0) #finish time
 
-m.sort(key=lambda m:m[1])
+m.sort(key=lambda m:m[1])  # compare
 
 x=0
 
