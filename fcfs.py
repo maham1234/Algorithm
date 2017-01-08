@@ -7,7 +7,7 @@ m=[]
 
 for i in xrange(num):
 
-	
+	#input
 	m[i].append(raw_input('enter process name: '))
 	
 	m[i].append(int(raw_input('enter burst time: ')))
