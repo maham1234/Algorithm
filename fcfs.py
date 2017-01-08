@@ -1,4 +1,4 @@
-
+#fcfs
 total_w=[]
 num=int(raw_input('Total number of processes: '))
 start_time=0
